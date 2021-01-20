@@ -1,0 +1,20 @@
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+
+.title1 {
+  	font-weight: 700;
+  	color: black;  	
+}
+
+strong {
+	font-size: 3rem;
+	font-family: Old English Text Mt;
+}
+
+.desc {
+	text-align: justify;
+	font-family: Kristen ITC;
+}

@@ -1,0 +1,69 @@
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around; 
+    background: #9069C4;
+    padding-left: 5rem;
+}
+
+.title {
+    margin-top: 5rem;  
+  	font-size: 3rem;
+  	font-weight: 500;
+  	color: white;
+    text-align: center;
+}
+
+/* Container for flexboxes */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+}
+
+/* Create four equal columns */
+.column {
+  flex: 50%;
+  padding: 20px;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (min-width: 1000px) {
+  .column {
+    flex: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 850px) {
+  .row {
+    flex-direction: column;
+  }
+  .ts {
+    padding-bottom: 5rem;
+  }
+  #about {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.info {
+  margin-top: 3rem;
+  text-align: justify;
+  color: white;
+  transition: all 0.3s linear;
+  font-family: Segoe Print;
+}
+
+.btn2 {
+  border: 2px solid white;
+  color: white;
+}
+
+.btn2:hover {
+  border: 2px solid white;
+  background-color: white; 
+  color: #9069C4;
+}

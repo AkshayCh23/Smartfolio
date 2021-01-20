@@ -1,0 +1,60 @@
+.footer {
+	background-color: #444;
+	text-decoration-color: white;
+	justify-content: center;
+	text-align: center;
+}
+
+.btn4 {
+  border: #444;
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.btn4:hover {
+  border: #444;
+  background-color: #444; 
+  color: grey;
+}
+
+.fa {
+	font-size: 3rem;
+	text-decoration: none; 
+}
+
+.fa:hover {
+  color: white;
+}	
+
+.fa-linkedin {
+  color: white;
+  font-size: 3rem;
+}
+
+.fa-instagram {
+	color: white;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+.fa-github {
+	color: white;
+}
+
+.icon {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+hr {
+	color: white;
+	border: 1px solid white;
+	margin-left: 10vw;
+	margin-right: 10vw;
+}	
+
+.foot {
+	font-size: 1rem;
+	color: white;
+}
